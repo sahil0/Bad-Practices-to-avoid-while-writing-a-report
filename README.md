@@ -8,3 +8,6 @@ Do not write the report from a hacker's perspective as you cannot expect the rea
 Do not use screenshots in which the details are not clearly visible. To solve this issue, take multiple small screenshots of the same page instead of taking an extremely big screenshot.
 Never stretch images/screenshots that you are using in the report. Stretching the images/screenshots will make them distorted. So, if you want to make an image bigger, you can stretch it from the bottom right corner but not too much.
 Don't include and explain all the steps you did to get to the hack. In the report include the steps like initial payload that acts as a PoC (like showing the database name/version) and then show what all data you extracted (like usernames and passwords etc.). The steps followed in the middle are hacker centric and are not required in the report.
+
+# IMPORTANT
+ Many pentesters clearly don't know the difference between Observation and Business Impact. Observation contains steps followed to find the vulnerability and Business Impact contains what could happen in case of a black hat hacker. So when producing a report you need to clearly mention what is the business impact of the vulnerability you found and Observation.
